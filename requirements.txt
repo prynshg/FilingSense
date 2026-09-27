@@ -1,0 +1,41 @@
+# Core
+python-dotenv
+pydantic-settings
+httpx
+tenacity
+google-genai
+# Ingestion
+beautifulsoup4
+lxml
+requests
+# faster-whisper is heavy (pulls torch). Only needed for the earnings-call
+# transcription slice — uncomment at Step 6.
+# faster-whisper
+
+# Retrieval
+qdrant-client
+fastembed
+rank-bm25
+
+# Agents / LLM
+langgraph
+langchain
+langchain-openai
+openai
+mcp
+
+# Eval
+ragas
+datasets
+
+# Observability
+langfuse
+
+# Serving
+fastapi
+uvicorn[standard]
+streamlit
+
+# Dev
+pytest
+ruff

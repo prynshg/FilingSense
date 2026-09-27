@@ -1,0 +1,894 @@
+{
+  "timestamp": "2026-09-26T13:39:12.911882+00:00",
+  "summary": {
+    "n": 44,
+    "errors": 0,
+    "answerability_acc": 0.909,
+    "abstention_precision": 0.714,
+    "abstention_recall": 1.0,
+    "answer_recall": 0.882,
+    "routing_acc": 0.967,
+    "exact_match": 1.0,
+    "mean_keyword_recall": 0.511,
+    "critic_faithfulness": 0.729,
+    "escalation_rate": 0.271,
+    "mean_secs": 42.0,
+    "total_mins": 30.8
+  },
+  "rows": [
+    {
+      "id": "g001",
+      "question": "What was JPMorgan's provision for credit losses in 2025?",
+      "answerable": true,
+      "expected_route": "XBRL facts",
+      "pred_abstained": false,
+      "pred_route": "XBRL facts",
+      "answerability_ok": true,
+      "final": "JPMorgan's provision for credit losses in 2025 was $14,212,000,000 [S1].",
+      "route_ok": true,
+      "exact_ok": true,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5601.9,
+        "route": 4777.0,
+        "critic": 5078.2
+      },
+      "secs": 17.5
+    },
+    {
+      "id": "g002",
+      "question": "How much did JPMorgan set aside for credit losses in FY2025?",
+      "answerable": true,
+      "expected_route": "XBRL facts",
+      "pred_abstained": false,
+      "pred_route": "XBRL facts",
+      "answerability_ok": true,
+      "final": "JPMorgan set aside $14,212,000,000 for credit losses in FY2025 [S1].\n\n[Flagged for review: 1 claim(s) below confidence threshold.]",
+      "route_ok": true,
+      "exact_ok": true,
+      "n_claims": 1,
+      "n_trusted": 0,
+      "n_escalated": 1,
+      "latency": {
+        "check_answerable": 5955.8,
+        "route": 4879.9,
+        "critic": 3818.2
+      },
+      "secs": 116.4
+    },
+    {
+      "id": "g003",
+      "question": "What were JPMorgan's total assets at the end of 2025?",
+      "answerable": true,
+      "expected_route": "XBRL facts",
+      "pred_abstained": false,
+      "pred_route": "XBRL facts",
+      "answerability_ok": true,
+      "final": "JPMorgan's total assets for FY2025 (10-K) filed on 2026-02-13 were $4,424,900,000,000 [S1].",
+      "route_ok": true,
+      "exact_ok": true,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 2852.2,
+        "route": 2780.8,
+        "critic": 2815.7
+      },
+      "secs": 10.1
+    },
+    {
+      "id": "g004",
+      "question": "How large was JPM's balance sheet in FY2025?",
+      "answerable": true,
+      "expected_route": "XBRL facts",
+      "pred_abstained": false,
+      "pred_route": "XBRL facts",
+      "answerability_ok": true,
+      "final": "In FY2025, JPM's total assets, representing the size of the balance sheet, were $4,424,900,000,000 [S1].",
+      "route_ok": true,
+      "exact_ok": true,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 2762.1,
+        "route": 2803.0,
+        "critic": 2756.2
+      },
+      "secs": 10.0
+    },
+    {
+      "id": "g005",
+      "question": "What was JPMorgan's net income in 2025?",
+      "answerable": true,
+      "expected_route": "XBRL facts",
+      "pred_abstained": false,
+      "pred_route": "XBRL facts",
+      "answerability_ok": true,
+      "final": "JPMorgan's net income for FY2025 was $57,048,000,000 [S1].",
+      "route_ok": true,
+      "exact_ok": true,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 2692.5,
+        "route": 2793.7,
+        "critic": 8100.9
+      },
+      "secs": 107.2
+    },
+    {
+      "id": "g006",
+      "question": "How much profit did JPMorgan earn in FY2025?",
+      "answerable": true,
+      "expected_route": "XBRL facts",
+      "pred_abstained": false,
+      "pred_route": "XBRL facts",
+      "answerability_ok": true,
+      "final": "JPMorgan earned a net income of $57,048,000,000 in FY2025 [S1].",
+      "route_ok": true,
+      "exact_ok": true,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5082.5,
+        "route": 7502.5,
+        "critic": 4687.1
+      },
+      "secs": 18.9
+    },
+    {
+      "id": "g007",
+      "question": "What were JPMorgan's total deposits in 2025?",
+      "answerable": true,
+      "expected_route": "XBRL facts",
+      "pred_abstained": false,
+      "pred_route": "XBRL facts",
+      "answerability_ok": true,
+      "final": "JPMorgan's total deposits in FY2025 were $2,559,320,000,000 [S1].",
+      "route_ok": true,
+      "exact_ok": true,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 6394.0,
+        "route": 4858.8,
+        "critic": 8478.6
+      },
+      "secs": 34.4
+    },
+    {
+      "id": "g008",
+      "question": "How much did customers hold in deposits at JPMorgan in FY2025?",
+      "answerable": true,
+      "expected_route": "XBRL facts",
+      "pred_abstained": false,
+      "pred_route": "XBRL facts",
+      "answerability_ok": true,
+      "final": "Customers held a total of $2,559,320,000,000 in deposits at JPMorgan in FY2025 [S1].",
+      "route_ok": true,
+      "exact_ok": true,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 6051.1,
+        "route": 4982.3,
+        "critic": 4401.0
+      },
+      "secs": 17.3
+    },
+    {
+      "id": "g009",
+      "question": "What are JPMorgan's main risk factors?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "JPMorganChase's principal risk factors include:\n- Legal and Regulatory risks\n- Political risks\n- Market risks\n- Credit risks\n- Liquidity risks\n- Capital risks\n- Operational risks\n- Strategic risks\n- Conduct risks\n- Reputation risks\n- Country risks\n- People risks",
+      "route_ok": true,
+      "keyword_recall": 0.7,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 6786.9,
+        "route": 4553.6,
+        "critic": 5321.7
+      },
+      "secs": 37.7
+    },
+    {
+      "id": "g010",
+      "question": "What does the filing say about climate-related risk?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "Climate risk refers to the potential threats posed by climate change to the Firm and its clients, customers, operations, and business strategy, acting as a driver of risk that may impact existing types of risks managed by the Firm [S1]. It is categorized into physical risk, which involves economic c",
+      "route_ok": true,
+      "keyword_recall": 0.737,
+      "n_claims": 6,
+      "n_trusted": 2,
+      "n_escalated": 4,
+      "latency": {
+        "check_answerable": 4706.6,
+        "route": 4703.2,
+        "critic": 8674.1
+      },
+      "secs": 46.6
+    },
+    {
+      "id": "g011",
+      "question": "How does management explain the change in provision for credit losses?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "earnings call transcript",
+      "answerability_ok": true,
+      "final": "Management explains that the results included a previously announced reserve build of $2.2 billion in CCB related to the forward purchase commitment of the Apple Card portfolio [S1].",
+      "route_ok": false,
+      "keyword_recall": 0.0,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 4778.8,
+        "route": 4815.9,
+        "critic": 5790.6
+      },
+      "secs": 17.2
+    },
+    {
+      "id": "g012",
+      "question": "What are JPMorgan's business segments?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "JPMorgan Chase has three reportable business segments: Consumer & Community Banking (\"CCB\"), Commercial & Investment Bank (\"CIB\"), and Asset & Wealth Management (\"AWM\"), with remaining activities in Corporate [S1].",
+      "route_ok": true,
+      "keyword_recall": 1.0,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 7152.9,
+        "route": 5565.0,
+        "critic": 9186.0
+      },
+      "secs": 31.9
+    },
+    {
+      "id": "g013",
+      "question": "What does the 10-K say about the allowance for credit losses?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "The Firm's allowance for credit losses represents management's estimate of expected credit losses over the remaining expected life of the Firm's financial assets measured at amortized cost and certain off-balance sheet lending-related commitments [S1, S3]. It generally comprises the allowance for lo",
+      "route_ok": true,
+      "keyword_recall": 0.762,
+      "n_claims": 3,
+      "n_trusted": 3,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 4726.8,
+        "route": 5538.0,
+        "critic": 4538.8
+      },
+      "secs": 127.5
+    },
+    {
+      "id": "g014",
+      "question": "What legal proceedings does JPMorgan disclose?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "JPMorgan Chase discloses numerous civil and governmental legal proceedings, including private proceedings, public proceedings, government investigations, and regulatory enforcement matters across various geographies and lines of business [S2]. Specific matters disclosed include a shareholder derivat",
+      "route_ok": true,
+      "keyword_recall": 0.167,
+      "n_claims": 5,
+      "n_trusted": 2,
+      "n_escalated": 3,
+      "latency": {
+        "check_answerable": 4558.8,
+        "route": 5663.1,
+        "critic": 4691.3
+      },
+      "secs": 132.5
+    },
+    {
+      "id": "g015",
+      "question": "What is JPMorgan's dividend policy?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "Dividends on preferred stock are discretionary and non-cumulative, and when declared, they are declared quarterly [S6]. On fixed-rate preferred stock, dividends are payable quarterly [S6]. On fixed-to-floating rate preferred stock, dividends are payable semiannually while at a fixed rate, and payabl",
+      "route_ok": true,
+      "keyword_recall": 0.0,
+      "n_claims": 3,
+      "n_trusted": 3,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5333.6,
+        "route": 5533.7,
+        "critic": 3922.1
+      },
+      "secs": 114.0
+    },
+    {
+      "id": "g016",
+      "question": "How does JPMorgan describe its cybersecurity risk management?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "JPMorgan describes cybersecurity risk management as an important and continuously evolving focus [S2]. The firm devotes significant resources to protect and enhance the security of computer systems, software, networks, storage devices, and other technology [S2]. Its security efforts are designed to ",
+      "route_ok": true,
+      "keyword_recall": 0.429,
+      "n_claims": 5,
+      "n_trusted": 5,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 3980.5,
+        "route": 3919.2,
+        "critic": 4731.3
+      },
+      "secs": 116.2
+    },
+    {
+      "id": "g017",
+      "question": "What were the main drivers of net interest income in 2025?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "Net interest income in 2025 was up 6% to $58.2 billion, reflecting higher NII in Card Services (predominantly driven by higher revolving balances) and higher NII in Banking & Wealth Management (driven by higher deposit margin, reflecting the impact of changes in FTP, partially offset by lower averag",
+      "route_ok": true,
+      "keyword_recall": 0.5,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 6235.1,
+        "route": 6243.1,
+        "critic": 5589.2
+      },
+      "secs": 22.0
+    },
+    {
+      "id": "g018",
+      "question": "How many employees did JPMorgan have at end of 2025?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": true,
+      "pred_route": "10-K text",
+      "answerability_ok": false,
+      "final": "As of December 31, 2025, JPMorganChase had 318,512 employees globally.",
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 4680.0,
+        "route": 6008.1,
+        "critic": 5892.3
+      },
+      "secs": 19.4
+    },
+    {
+      "id": "g019",
+      "question": "What does the filing say about capital requirements and CET1?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "All banking institutions are currently required to have a minimum CET1 capital ratio of 4.5% of risk-weighted assets [S2]. As of December 31, 2025, the Firm's Standardized CET1 capital ratio requirement, including regulatory buffers, was 11.5% [S5]. For the year ended December 31, 2024, the Standard",
+      "route_ok": true,
+      "keyword_recall": 0.6,
+      "n_claims": 4,
+      "n_trusted": 4,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 6580.7,
+        "route": 6313.1,
+        "critic": 4650.2
+      },
+      "secs": 37.8
+    },
+    {
+      "id": "g020",
+      "question": "What critical accounting estimates does management highlight?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "Management highlights the allowance for credit losses as a critical accounting estimate involving significant judgments [S1].",
+      "route_ok": true,
+      "keyword_recall": 0.455,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5182.2,
+        "route": 6066.1,
+        "critic": 6445.5
+      },
+      "secs": 102.4
+    },
+    {
+      "id": "g021",
+      "question": "What market risks does JPMorgan's trading business face?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "JPMorgan's trading business (specifically within CIB, which makes markets and services clients across fixed income, foreign exchange, equities, and commodities) faces the risk of loss from adverse movements in market prices and implied volatilities across interest rate, foreign exchange, credit, com",
+      "route_ok": true,
+      "keyword_recall": 0.5,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 6820.7,
+        "route": 6121.2,
+        "critic": 5818.0
+      },
+      "secs": 22.0
+    },
+    {
+      "id": "g022",
+      "question": "How did noninterest expense change in 2025 and why?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "In 2025, total noninterest expense was $95,640 million, compared with $91,797 million in 2024 [S8]. Furthermore, segment results show noninterest expense was $40.3 billion, up 6%, reflecting higher noncompensation expense (predominantly driven by higher auto lease depreciation on higher auto operati",
+      "route_ok": true,
+      "keyword_recall": 0.333,
+      "n_claims": 2,
+      "n_trusted": 2,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5117.6,
+        "route": 4776.7,
+        "critic": 4610.1
+      },
+      "secs": 23.6
+    },
+    {
+      "id": "g023",
+      "question": "What does the 10-K disclose about related-party transactions?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "The 10-K refers to Item 10 for information regarding Related and Certain Transactions [S6].\n\n[Flagged for review: 1 claim(s) below confidence threshold.]",
+      "route_ok": true,
+      "keyword_recall": 0.231,
+      "n_claims": 1,
+      "n_trusted": 0,
+      "n_escalated": 1,
+      "latency": {
+        "check_answerable": 4908.2,
+        "route": 4583.8,
+        "critic": 7404.3
+      },
+      "secs": 139.2
+    },
+    {
+      "id": "g024",
+      "question": "What was the effective tax rate discussion for 2025?",
+      "answerable": true,
+      "expected_route": "10-K text",
+      "pred_abstained": false,
+      "pred_route": "10-K text",
+      "answerability_ok": true,
+      "final": "The effective tax rate decreased in 2025 compared to 2024, driven by a $774 million income tax benefit in Corporate recorded in the second quarter of 2025 due to the resolution of certain tax audits and the impact of tax regulations related to foreign currency translation gains and losses finalized ",
+      "route_ok": true,
+      "keyword_recall": 0.25,
+      "n_claims": 2,
+      "n_trusted": 2,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 7673.8,
+        "route": 5981.5,
+        "critic": 6012.3
+      },
+      "secs": 28.1
+    },
+    {
+      "id": "g025",
+      "question": "What was Apple's revenue in 2025?",
+      "answerable": false,
+      "expected_route": null,
+      "pred_abstained": true,
+      "pred_route": null,
+      "answerability_ok": true,
+      "final": "Not in the filings.",
+      "n_claims": 0,
+      "n_trusted": 0,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 4583.0
+      },
+      "secs": 4.6
+    },
+    {
+      "id": "g026",
+      "question": "What will JPM's stock price be next month?",
+      "answerable": false,
+      "expected_route": null,
+      "pred_abstained": true,
+      "pred_route": null,
+      "answerability_ok": true,
+      "final": "Not in the filings.",
+      "n_claims": 0,
+      "n_trusted": 0,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 4980.0
+      },
+      "secs": 5.0
+    },
+    {
+      "id": "g027",
+      "question": "What was Bank of America's provision for credit losses in 2025?",
+      "answerable": false,
+      "expected_route": null,
+      "pred_abstained": true,
+      "pred_route": null,
+      "answerability_ok": true,
+      "final": "Not in the filings.",
+      "n_claims": 0,
+      "n_trusted": 0,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5110.8
+      },
+      "secs": 5.1
+    },
+    {
+      "id": "g028",
+      "question": "What will JPMorgan's revenue be in 2026?",
+      "answerable": false,
+      "expected_route": null,
+      "pred_abstained": true,
+      "pred_route": null,
+      "answerability_ok": true,
+      "final": "Not in the filings.",
+      "n_claims": 0,
+      "n_trusted": 0,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5969.0
+      },
+      "secs": 6.0
+    },
+    {
+      "id": "g029",
+      "question": "What did the CEO have for breakfast before the earnings call?",
+      "answerable": false,
+      "expected_route": null,
+      "pred_abstained": true,
+      "pred_route": null,
+      "answerability_ok": true,
+      "final": "Not in the filings.",
+      "n_claims": 0,
+      "n_trusted": 0,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5680.2
+      },
+      "secs": 5.7
+    },
+    {
+      "id": "g030",
+      "question": "What is the current price of Bitcoin?",
+      "answerable": false,
+      "expected_route": null,
+      "pred_abstained": true,
+      "pred_route": null,
+      "answerability_ok": true,
+      "final": "Not in the filings.",
+      "n_claims": 0,
+      "n_trusted": 0,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 4378.9
+      },
+      "secs": 4.4
+    },
+    {
+      "id": "g031",
+      "question": "How many shares of JPM does Warren Buffett own?",
+      "answerable": false,
+      "expected_route": null,
+      "pred_abstained": true,
+      "pred_route": null,
+      "answerability_ok": true,
+      "final": "Not in the filings.",
+      "n_claims": 0,
+      "n_trusted": 0,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5592.6
+      },
+      "secs": 5.6
+    },
+    {
+      "id": "g032",
+      "question": "What was JPMorgan's net income in 2010?",
+      "answerable": false,
+      "expected_route": null,
+      "pred_abstained": true,
+      "pred_route": null,
+      "answerability_ok": true,
+      "final": "Not in the filings.",
+      "n_claims": 0,
+      "n_trusted": 0,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5429.9
+      },
+      "secs": 5.4
+    },
+    {
+      "id": "g033",
+      "question": "Will the Fed cut interest rates this year?",
+      "answerable": false,
+      "expected_route": null,
+      "pred_abstained": true,
+      "pred_route": null,
+      "answerability_ok": true,
+      "final": "Not in the filings.",
+      "n_claims": 0,
+      "n_trusted": 0,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5689.1
+      },
+      "secs": 5.7
+    },
+    {
+      "id": "g034",
+      "question": "What is Jamie Dimon's net worth?",
+      "answerable": false,
+      "expected_route": null,
+      "pred_abstained": true,
+      "pred_route": null,
+      "answerability_ok": true,
+      "final": "Not in the filings.",
+      "n_claims": 0,
+      "n_trusted": 0,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 4569.8
+      },
+      "secs": 4.6
+    },
+    {
+      "id": "g035",
+      "question": "What full-year 2025 net income did management report on the earnings call, excluding significant items?",
+      "answerable": true,
+      "expected_route": "earnings call transcript",
+      "pred_abstained": false,
+      "pred_route": "earnings call transcript",
+      "answerability_ok": true,
+      "final": "Excluding significant items, the firm reported full-year net income of $57.5 billion [S2].",
+      "route_ok": true,
+      "keyword_recall": 0.75,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5688.2,
+        "route": 6297.1,
+        "critic": 5980.4
+      },
+      "secs": 121.1
+    },
+    {
+      "id": "g036",
+      "question": "What was JPMorgan's CET1 ratio at the end of 2025, according to the earnings call?",
+      "answerable": true,
+      "expected_route": "earnings call transcript",
+      "pred_abstained": false,
+      "pred_route": "earnings call transcript",
+      "answerability_ok": true,
+      "final": "At the end of the quarter, the firm ended with a standardized CET1 ratio of 14.5% [S2].\n\n[Flagged for review: 1 claim(s) below confidence threshold.]",
+      "route_ok": true,
+      "keyword_recall": 0.333,
+      "n_claims": 1,
+      "n_trusted": 0,
+      "n_escalated": 1,
+      "latency": {
+        "check_answerable": 4985.1,
+        "route": 6691.8,
+        "critic": 7158.1
+      },
+      "secs": 20.9
+    },
+    {
+      "id": "g037",
+      "question": "What drove the year-on-year increase in expenses mentioned on the call?",
+      "answerable": true,
+      "expected_route": "earnings call transcript",
+      "pred_abstained": false,
+      "pred_route": "earnings call transcript",
+      "answerability_ok": true,
+      "final": "Expenses were up 5% year-on-year, predominantly driven by higher volume and revenue related expenses, and compensation growth, including from office hiring, partially offset by the release of an FDSD special assessment accrual [S2].",
+      "route_ok": true,
+      "keyword_recall": 0.533,
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5345.5,
+        "route": 4875.0,
+        "critic": 7819.5
+      },
+      "secs": 119.0
+    },
+    {
+      "id": "g038",
+      "question": "What did management say about consumer health on the earnings call?",
+      "answerable": true,
+      "expected_route": "earnings call transcript",
+      "pred_abstained": false,
+      "pred_route": "earnings call transcript",
+      "answerability_ok": true,
+      "final": "Management stated that consumers and small businesses remain resilient [S3]. Although consumer sentiment is weak, data trends remain largely consistent with historical norms as they monitor leading indicators for any signs of stress, and they are not currently seeing the duration [S3]. Furthermore, ",
+      "route_ok": true,
+      "keyword_recall": 0.857,
+      "n_claims": 3,
+      "n_trusted": 2,
+      "n_escalated": 1,
+      "latency": {
+        "check_answerable": 4970.8,
+        "route": 6043.2,
+        "critic": 5162.8
+      },
+      "secs": 71.2
+    },
+    {
+      "id": "g039",
+      "question": "By how much did debit and credit sales volume grow, per the call?",
+      "answerable": true,
+      "expected_route": "earnings call transcript",
+      "pred_abstained": true,
+      "pred_route": null,
+      "answerability_ok": false,
+      "final": "Not in the filings.",
+      "n_claims": 0,
+      "n_trusted": 0,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 5031.4
+      },
+      "secs": 5.0
+    },
+    {
+      "id": "g040",
+      "question": "What did the call report for the consumer banking business's 2025 results?",
+      "answerable": true,
+      "expected_route": "earnings call transcript",
+      "pred_abstained": false,
+      "pred_route": "earnings call transcript",
+      "answerability_ok": true,
+      "final": "For the consumer business (CCB), the firm reported a net income of $3.6 billion, or $5.3 billion excluding the reserve build for the Apple Card portfolio [S3]. Revenue was $19.4 billion, which was up 6% year on year [S3].\n\n[Flagged for review: 2 claim(s) below confidence threshold.]",
+      "route_ok": true,
+      "keyword_recall": 0.6,
+      "n_claims": 2,
+      "n_trusted": 0,
+      "n_escalated": 2,
+      "latency": {
+        "check_answerable": 5002.8,
+        "route": 5004.6,
+        "critic": 4557.5
+      },
+      "secs": 22.0
+    },
+    {
+      "id": "g041",
+      "question": "How many net new checking accounts did JPMorgan add in 2025, per the call?",
+      "answerable": true,
+      "expected_route": "earnings call transcript",
+      "pred_abstained": true,
+      "pred_route": "earnings call transcript",
+      "answerability_ok": false,
+      "final": "JPMorgan added 1.7 million net new checking accounts for the full year [S3].",
+      "n_claims": 1,
+      "n_trusted": 1,
+      "n_escalated": 0,
+      "latency": {
+        "check_answerable": 6119.2,
+        "route": 4915.2,
+        "critic": 5421.8
+      },
+      "secs": 18.2
+    },
+    {
+      "id": "g042",
+      "question": "What drove the increase in NII in Markets, according to the call?",
+      "answerable": true,
+      "expected_route": "earnings call transcript",
+      "pred_abstained": false,
+      "pred_route": "earnings call transcript",
+      "answerability_ok": true,
+      "final": "The increase in NII in markets was primarily driven by higher firmwide deposit balances and revolving balances in card, which were largely offset by the impact of lower rates [S2].\n\n[Flagged for review: 1 claim(s) below confidence threshold.]",
+      "route_ok": true,
+      "keyword_recall": 1.0,
+      "n_claims": 1,
+      "n_trusted": 0,
+      "n_escalated": 1,
+      "latency": {
+        "check_answerable": 4546.2,
+        "route": 4492.0,
+        "critic": 4972.2
+      },
+      "secs": 23.5
+    },
+    {
+      "id": "g043",
+      "question": "What full-year revenue and ROTCE did management report excluding significant items?",
+      "answerable": true,
+      "expected_route": "earnings call transcript",
+      "pred_abstained": true,
+      "pred_route": "earnings call transcript",
+      "answerability_ok": false,
+      "final": "Excluding significant items, management reported full year revenue of $185 billion and an ROTCE of 20%.\n\n[Flagged for review: 1 claim(s) below confidence threshold.]",
+      "n_claims": 1,
+      "n_trusted": 0,
+      "n_escalated": 1,
+      "latency": {
+        "check_answerable": 5146.1,
+        "route": 7522.5,
+        "critic": 6982.5
+      },
+      "secs": 21.3
+    },
+    {
+      "id": "g044",
+      "question": "What significant items affected 2025 results, per the call?",
+      "answerable": true,
+      "expected_route": "earnings call transcript",
+      "pred_abstained": false,
+      "pred_route": "earnings call transcript",
+      "answerability_ok": true,
+      "final": "The results for the quarter included a reserve build of $2.2 billion in CCB related to the forward purchase commitment of the Apple Card portfolio [S1]. For the full year, there were a few significant items listed in the footnote [S2].\n\n[Flagged for review: 1 claim(s) below confidence threshold.]",
+      "route_ok": true,
+      "keyword_recall": 0.5,
+      "n_claims": 2,
+      "n_trusted": 1,
+      "n_escalated": 1,
+      "latency": {
+        "check_answerable": 5303.3,
+        "route": 4732.0,
+        "critic": 5734.7
+      },
+      "secs": 22.8
+    }
+  ]
+}

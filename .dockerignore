@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.git/
+.gitignore
+# Runtime artifacts: regenerated on each run, never baked into the image.
+data/traces.jsonl
+data/*audit*.json
+# data/chunks.pkl is deliberately NOT ignored: the image needs the sidecar.

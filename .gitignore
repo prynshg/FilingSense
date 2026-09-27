@@ -1,0 +1,22 @@
+# Secrets — never commit
+.env
+.env.*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Runtime artifacts (regenerated each run)
+data/traces.jsonl
+data/*audit*.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# NOTE: data/chunks.pkl is deliberately NOT ignored —
+# the Docker image needs the sidecar.
